@@ -4,4 +4,3 @@ const ComputerChoice = () => {
     return choices[randomNumber];
 };
 
-
