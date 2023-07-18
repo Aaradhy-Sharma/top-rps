@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: bisque;
+}
+
+
+header>h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    border: 2px solid rgb(28, 171, 123);
+    color:rgb(25, 23, 26);
+    margin: 100px 30px;
+}
+
+#backgroundVid{
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.outputBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 500px;
+    border: 2px solid rgb(28, 171, 123);
+    margin: 100px auto;
+    background-color: azure;
+    opacity: 80%;
+}
+
+.scoreTab{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 250px;
+    border: 2px solid rgb(28, 171, 123);
+    margin: 100px auto;
+    background-color: azure;
+    opacity: 80%;
+}
+
+.outputTab{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    margin: 100px auto;
+}
+
+.inputTab{
+    display: flex;
+    border: 1px solid greenyellow;
+    width: 700px;
+    height: 250px;
+    margin: 100px auto;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
