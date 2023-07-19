@@ -69,16 +69,19 @@ function resetScore() {
 
 function outputBoxTextUpdaterWon(selectionChoice){
     const outputBoxText = document.querySelector('.outputBoxText');
+    outputBoxText.style.color = "green";
     outputBoxText.textContent =`You won this round! 🎉 \n Your choice was ${selectionChoice} and computer's choice was ${computerSelection()}`;
 }
 
 function outputBoxTextUpdaterLoss(selectionChoice){
     const outputBoxText = document.querySelector('.outputBoxText');
+    outputBoxText.style.color = "red";
     outputBoxText.textContent =`You lost this round! 🥲 \n Your choice was ${selectionChoice} and computer's choice was ${computerSelection()}`;
 }
 
 function outputBoxTextUpdaterDraw(selectionChoice){
     const outputBoxText = document.querySelector('.outputBoxText');
+    outputBoxText.style.color = "black";
     outputBoxText.textContent =`This round ended up in a DRAW! \n Your choice was ${selectionChoice} and computer's choice was ${computerSelection()}`;
 }
 
@@ -86,3 +89,5 @@ function outputBoxTextUpdaterError(selectionChoice){
     const outputBoxText = document.querySelector('.outputBoxText');
     outputBoxText.textContent =`Error:1 : unknown ref(s) detected. 🎉 \n Your choice was ${selectionChoice} and computer's choice was ${computerSelection()}`;
 }
+
+
