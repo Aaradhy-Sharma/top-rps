@@ -182,3 +182,17 @@ header h1{
         transition: 10ms ease-in;
     }
 }
+
+@media (max-width: 768px) {
+    .buttonTab {
+      flex-direction: column;
+      margin: 10px 0;
+    } 
+    .scoreTab{
+        margin: 100px 0;
+    }
+
+    .reset{
+        margin: 100px 0;
+    }
+  }
